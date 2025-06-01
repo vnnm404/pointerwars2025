@@ -1,0 +1,26 @@
+Pointer Wars 2025: Linked List Edition Week 1
+
+The task for this week is to implement all of the functions declared 
+in linked_list.h and have them pass all of the functional tests 
+in the provided functional test suite. Once that is complete, send us an 
+email (pointerwars2025@gmail.com) with either your code attached, or a GitHub 
+repository that we can clone and test, for code feedback and performance 
+results. I am not going to release what functions are tested 
+and how (as a forcing function to make sure all your code is well written), 
+but upon seeing a performance report it should be obvious.
+
+There are three C structures in linked_list.h: linked_list, node, and iterator. 
+The linked_list is composed of nodes, and the iterator structure is 
+used by a few functions, namely linked_list_iterate(). This function is going 
+to be heavily tested for performance, as sequential access 
+of a list is a common operation.
+
+In terms of memory allocation and deallocation, your library depends 
+on user-specified malloc() and free() functions, registered 
+via the linked_list_register_malloc() and linked_list_register_free() 
+functions. See the malloc_fptr and free_fptr function pointer variables 
+in linked_list.c, which you can use in your implementation of your linked 
+list. One of the reasons for this is code like instrumented_malloc() 
+in linked_list_test_program.c. Another reason is to allow you 
+to specify to me whether you'd like to use a memory allocation 
+library other than libc's implementation of malloc()/free().
