@@ -1,0 +1,30 @@
+PERFORMANCE TESTS
+
+    Create 10,000 linked_lists: n: 1000 min: 268646 ns mean: 277610.246 ns stddev: 7105.03725560141 ns
+    Insert 1 elements at front of linked_list: n: 1000 min: 74 ns mean: 77.943 ns stddev: 12.3331971118602 ns
+    Insert 2 elements at front of linked_list: n: 1000 min: 74 ns mean: 100.284 ns stddev: 9.75127396805155 ns
+    Insert 4 elements at front of linked_list: n: 1000 min: 111 ns mean: 139.109 ns stddev: 12.0447963453103 ns
+    Insert 8 elements at front of linked_list: n: 1000 min: 240 ns mean: 253.286 ns stddev: 43.0323158103306 ns
+    Insert 16 elements at front of linked_list: n: 1000 min: 500 ns mean: 519.838 ns stddev: 30.3834454267453 ns
+    Insert 32 elements at front of linked_list: n: 1000 min: 981 ns mean: 1026.228 ns stddev: 331.53562405268 ns
+    Insert 64 elements at front of linked_list: n: 1000 min: 1962 ns mean: 1997.805 ns stddev: 183.95019699636 ns
+    Insert 128 elements at front of linked_list: n: 1000 min: 3851 ns mean: 3930.914 ns stddev: 402.169241245524 ns
+    Insert 256 elements at front of linked_list: n: 1000 min: 7630 ns mean: 7756.571 ns stddev: 680.108431765848 ns
+    Insert 512 elements at front of linked_list: n: 1000 min: 15277 ns mean: 15407.521 ns stddev: 575.325990686153 ns
+    Insert 1024 elements at front of linked_list: n: 1000 min: 30667 ns mean: 33066.162 ns stddev: 1348.08037807692 ns
+    Insert 2048 elements at front of linked_list: n: 1000 min: 63944 ns mean: 1068005.539 ns stddev: 31602525.8850553 ns
+    Insert 4096 elements at front of linked_list: n: 1000 min: 134777 ns mean: 138840.931 ns stddev: 2606.84810839431 ns
+    Insert 8192 elements at front of linked_list: n: 1000 min: 278832 ns mean: 284281.887 ns stddev: 3149.66345507437 ns
+    Insert 16384 elements at front of linked_list: n: 100 min: 555941 ns mean: 563398.14 ns stddev: 4914.41486449811 ns
+    Insert 32768 elements at front of linked_list: n: 100 min: 1167992 ns mean: 1188362.25 ns stddev: 10447.9356902452 ns
+    Insert 1 elements at end of linked_list: n: 1000 min: 55 ns mean: 70.952 ns stddev: 15.6005671691768 ns
+    Insert 2 elements at end of linked_list: n: 1000 min: 74 ns mean: 86.029 ns stddev: 11.2805212202273 ns
+    Insert 4 elements at end of linked_list: n: 1000 min: 129 ns mean: 151.197 ns stddev: 8.50730221633157 ns
+    Insert 8 elements at end of linked_list: n: 1000 min: 314 ns mean: 341.127 ns stddev: 44.2026794549831 ns
+    Insert 16 elements at end of linked_list: n: 1000 min: 722 ns mean: 747.996 ns stddev: 295.942105797739 ns
+    Insert 32 elements at end of linked_list: n: 1000 min: 2259 ns mean: 2296.634 ns stddev: 225.883368232369 ns
+    Insert 64 elements at end of linked_list: n: 1000 min: 7092 ns mean: 7199.108 ns stddev: 545.008691982063 ns
+    Insert 128 elements at end of linked_list: n: 1000 min: 23536 ns mean: 23734.174 ns stddev: 1090.37044151242 ns
+    Insert 256 elements at end of linked_list: n: 1000 min: 83648 ns mean: 84323.54 ns stddev: 1689.8563389827 ns
+    Insert 512 elements at end of linked_list: n: 1000 min: 356053 ns mean: 453885.686 ns stddev: 45369.5970312213 ns
+    The performance of your linked_list_create() function is acceptable.
